@@ -5,9 +5,9 @@ export default function Routes(){
 
     const date =new Date().toLocaleDateString('en-US', { weekday : 'long'})
     const formattedDate = new Date().toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric'
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
     });
 
     return (
