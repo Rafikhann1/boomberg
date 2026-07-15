@@ -1,0 +1,59 @@
+.most-read{
+    width:100%;
+}
+
+.most-read h2{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.most-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    padding:18px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.most-content{
+    flex:1;
+}
+
+.meta{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+.tag{
+    border:1px solid #ddd;
+    padding:4px 10px;
+    font-size:12px;
+}
+
+.meta span:last-child{
+    color:#777;
+    font-size:13px;
+}
+
+.most-content h4{
+    font-size:22px;
+    line-height:1.4;
+    margin-bottom:12px;
+}
+
+.most-content a{
+    color:#304ffe;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+}
+
+.most-item img{
+    width:170px;
+    height:110px;
+    object-fit:cover;
+}
