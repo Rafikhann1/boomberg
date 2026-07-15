@@ -1,5 +1,6 @@
+import './Header.css'
 export default function Header() {
-  return(
+  return (
     <nav className="navbar">
       {/* Left */}
       <div className="left">
@@ -9,11 +10,11 @@ export default function Header() {
 
         <img src="/src/assets/search.png" alt="Search" className="icon" />
 
-   
         <img
           src="/src/assets/notification-bell.png"
           alt="Notification"
-          className="icon"/ >
+          className="icon"
+        />
       </div>
       {/* Center */}
       <div className="logo">
