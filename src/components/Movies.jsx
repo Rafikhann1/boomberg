@@ -5,8 +5,8 @@ import moviePoster from "../assets/movies1.png"
 export default function Movies(){
     return (
         <section className="movies grid">
-            <div className="flex justify-between mb-4">
-                <div className="flex items-end gap-1 font-bold">
+            <div className="flex justify-between items-center gap-2 mb-4">
+                <div className="flex items-center gap-1 font-bold">
                     <h1 className="text-xl">
                         Movies 
                     </h1>
