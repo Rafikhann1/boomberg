@@ -1,7 +1,7 @@
 import './Header.css'
 export default function Header() {
   return (
-    <nav className="navbar">
+    <nav className="navbar sticky bg-white opacity-99 top-0">
       {/* Left */}
       <div className="left">
         <img src="/src/assets/menu.png" alt="Menu" className="icon" />

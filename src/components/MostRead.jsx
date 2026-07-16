@@ -49,19 +49,21 @@ export default function MostRead() {
       </h2>
 
       {articles.map((article, index) => (
-        <div className="most-item" key={index}>
+        <div className="most-item grid grid-cols-[1fr_33%] gapx-2 mb-10" key={index}>
           <div className="most-content">
             <div className="meta">
               <span className="tag">{article.category}</span>
               <span>{article.date}</span>
             </div>
 
-            <h4>{article.title}</h4>
+            <p className="font-bold">{article.title}</p>
 
             <a href="/">Continue Reading</a>
           </div>
-
-          <img src={article.image} alt={article.title} />
+          <div className="w-full h-full">
+            <img className="h-full w-full object-cover " src={article.image} alt={article.title} />
+          </div>
+          
         </div>
       ))}
     </div>

@@ -1,6 +1,7 @@
 import Movies from "./Movies"
 import LatestNews from "./LatestNews"
 import MostRead from "./MostRead"
+import './Routes.css'
 
 export default function Content(){
     return (
