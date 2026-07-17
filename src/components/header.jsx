@@ -1,10 +1,19 @@
 import './Header.css'
-export default function Header() {
+
+export default function Header(props) {
+
+
+  
   return (
     <nav className="navbar sticky bg-white opacity-99 top-0">
       {/* Left */}
       <div className="left">
-        <img src="/src/assets/menu.png" alt="Menu" className="icon" />
+        <img 
+          src="/src/assets/menu.png" 
+          alt="Menu" 
+          className="icon" 
+          onClick={props.handleClick}
+        />
 
         <div className="line"></div>
 
@@ -17,8 +26,8 @@ export default function Header() {
         />
       </div>
       {/* Center */}
-      <div className="logo">
-        Bloomberg
+      <div className="logo text-base sm:text-lg md:text-xl lg:text-2xl">
+        bloomberg
       </div>
 
       {/* Right */}

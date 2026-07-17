@@ -3,6 +3,8 @@ import ship from "../assets/ship.png";
 import twitter from "../assets/twitter.png";
 import sunset from "../assets/sunset.png";
 import paper from "../assets/paper.png";
+import { IoIosArrowDropright } from "react-icons/io"
+
 
 const articles = [
   {
@@ -44,9 +46,10 @@ const articles = [
 export default function MostRead() {
   return (
     <div className="most-read">
-      <h2>
-        Most Read <span>›</span>
-      </h2>
+       <div className="flex items-center gap-1 font-bold text-xl ">
+              <h1>Most Read</h1>
+              <IoIosArrowDropright />
+      </div>
 
       {articles.map((article, index) => (
         <div className="most-item grid grid-cols-[1fr_33%] gapx-2 mb-10" key={index}>

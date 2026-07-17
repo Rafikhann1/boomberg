@@ -46,7 +46,7 @@
     left:50%;
     transform:translateX(-50%);
 
-    font-size:42px;
+    /* font-size:42px; */
     font-weight:bold;
 }
 

@@ -11,7 +11,7 @@ export default function Routes(){
     });
 
     return (
-        <nav className="mx-6 flex justify-between items-center py-4">
+        <nav className="mx-6 flex flex-col items-start  items-center pt-4 sm:text-xs md:text-sm lg:text-base sm:flex-row sm:justify-between">
            <div><span className='font-bold'>{date}</span><br />{formattedDate}</div>
            <div>World</div>
            <div>Politics</div>

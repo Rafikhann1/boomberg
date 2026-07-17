@@ -36,13 +36,13 @@ export default function LatestNews() {
         <IoIosArrowDropright />
       </div>
 
-      <div className="border-x-[1px] border-custom-border px-4">
+      <div className="border-x-[1px] border-custom-border px-4 mt-2">
         {latestNews.map((news, index) => {
           //    console.log(news)
           return (
             <div key={nanoid()} className="grid py-2">
               <div className="flex items-center gap-2 mb-2">
-                <span className="font-bold border border-4 border-custom-border px-2 py-1 text-xs">
+                <span className="font-bold border border-1 border-custom-border px-2 py-1 text-xs">
                   {news.category}
                 </span>
                 <span className="text-xs text-custom-clr1">{news.date}</span>
